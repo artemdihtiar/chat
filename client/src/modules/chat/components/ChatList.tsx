@@ -12,7 +12,7 @@ export const ChatList: FC<ChatListProps> = ({ rooms, socket, selectRoom }) => {
   }, [socket])
 
   return (
-    <Box px='5px' backgroundColor='red' h='100%' w='30%' maxW='30%'>
+    <Box px='5px' h='100%' w='30%' maxW='30%'>
       {!rooms || !rooms.length && <Box textAlign='center'>No rooms yet</Box>}
       {rooms && !!rooms.length && (
         <Box textAlign='center'>

@@ -95,7 +95,7 @@ export const RoomSection = ({
   };
 
   return (
-    <Box w="70%" h="100%" backgroundColor="#2979FF">
+    <Box w="70%" h="100%">
       <Text textAlign="center">{room.name}</Text>
       <Box p="5px" h="85%">
         <Center
